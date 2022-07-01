@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="/tictacto/src/manifest.webmanifest">
+        <link rel="stylesheet" type="text/css" href="Tic Tac Toecss.css">
+    </head>
+    <body>
+        <div id="tic-tac-toe">
+            <h1 id="hint">Zum Spielen bitte abwechselnd in die Spielfelder klicken/tappen!</h1>
+            <div class="red-dev">
+
+                <table id="gameboard">
+                    <tr>
+                        <td id="AA">
+                            <button class="feld"  id="b1"></button>
+                        </td>
+                        <td id="AB">
+                            <button class="feld" id="b2"></button>
+                        </td>
+                        <td id="AC">
+                            <button class="feld" id="b3"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="BA">
+                            <button  class="feld" id="b4"></button>
+                        </td>
+                        <td id="BB">
+                            <button class="feld" id="b5"></button>
+                        </td>
+                        <td id="BC">
+                            <button class="feld" id="b6"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="Ca">
+                            <button class="feld" id="b7"></button>
+                        </td>
+                        <td id="CB">
+                            <button class="feld" id="b8"></button>
+                        </td>
+                        <td id="CC">
+                            <button class="feld" id="b9"></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <button onclick="neustart(id)" id="neustart">Neustart</button>
+        <script type="text/javascript" src="Tic Tac Toejs.js"></script>
+    </body>
+</html>
