@@ -2,7 +2,7 @@
     "theme_color": "#f69435",
     "background_color": "#f69435",
     "display": "fullscreen",
-    "scope": "/tictacto/src",
+    "scope": "/tictactoe/src",
     "start_url": "https://philipptommateja.github.io/tictactoe/src",
     "name": "TicTacToe",
     "short_name": "tictac",
