@@ -3,7 +3,7 @@
     "background_color": "#f69435",
     "display": "fullscreen",
     "scope": "/tictacto/src",
-    "start_url": "https://philipptommateja.github.io/tictactoe",
+    "start_url": "https://philipptommateja.github.io/tictactoe/src",
     "name": "TicTacToe",
     "short_name": "tictac",
     "description": "TicTacToe Game"
